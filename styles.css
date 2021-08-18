@@ -33,6 +33,7 @@ body{
     background-color:var(--primary-color);
     border-radius: 0.5rem;
     color: white;
+    
 }
 
 .link-secondary{
@@ -63,7 +64,7 @@ body{
 
 .navigation .nav-brand{
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
 }
 
 .navigation .nav-pills{
@@ -72,6 +73,7 @@ body{
 
 .navigation .link-active{
     font-weight: bold;
+    font-size: 1.1rem;
 }
 
 /**header**/
@@ -92,7 +94,11 @@ body{
     text-align: center;
 }
 
-.hero .hero-heading .heading-inverted{
+/* .hero .hero-heading .heading-inverted{
+    color: var(--primary-color);
+} */
+
+.heading-inverted{
     color: var(--primary-color);
 }
 
@@ -124,6 +130,18 @@ body{
     color: white;
 }
 
+.footer-header{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
 .footer ul{
     padding-inline-start: 0px;
+}
+
+/*Projects*/
+
+.have-some-space{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
