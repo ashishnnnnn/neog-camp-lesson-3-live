@@ -145,3 +145,20 @@ body{
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
+
+/*tech-stack and marks*/
+.tech-stack{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 0.4rem;
+}
+
+.mark{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 0.4rem;
+}
+
+small{
+    font-weight: bold;
+}
