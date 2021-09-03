@@ -1,29 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="styles.css" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles.css" rel="stylesheet" />
     <title>Blogs</title>
-</head>
-<body>
+  </head>
+  <body>
     <nav class="navigation container">
-        <div class="nav-brand">My Blogs</div>
-        <ul class="list-non-bullet nav-pills">
+      <div class="nav-brand">My Blogs</div>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link" href="/index.html">Home</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/projects.html">Projects</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link link-active" href="/">Blog</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="blog">
+      <h1 class="hero-heading">
+        Ashish Kumar's <span class="heading-inverted">Blogs</span>
+      </h1>
+    </div>
+    <div class="container container-center">
+      <header class="hero">
+        <img class="hero-img" src="images/blog.svg" />
+        <h1 class="hero-heading">
+          Have a look on<span class="heading-inverted"> My Projects</span>
+        </h1>
+      </header>
+    </div>
+    <ul reversed class="list-non-bullet">
+        <li class=>
+            <div class="container container-center have-some-space ow">
+                <h1><span class="heading-inverted">Don't</span> Overfit</h1>
+                <small>August 2019</small>
+                <div class="tech-stack"> <span class="heading-inverted">Tech -> </span>Python, Machine Learning ,Pandas ,Numpy ,MatpltLib</div>
+                <div class="discription-about-blog">
+                    <p class="details-of-blog">This blog have the tips and process one should follow so that their Machine Learning Model will not Overfit The Data. It is generally seen that newbie uses very complex model for simpler data , which leads to overfitting. Sometime simple EDA and Data Analysis Can give us better result than complex model</p>
+                </div>
+                <div class="Blog-link">
+                    <a href ="https://medium.com/@ashishnnnnn/dont-overfit-focus-on-generalization-9420f36adbe" class="link link-primary">Blog-1 </a>
+                </div>
+            </div>
+        </li>
+        <li class=>
+            <div class="container container-center have-some-space">
+                <h1><span class="heading-inverted">Google Smart Compose- </span> Real-time text Assisting</h1>
+                <small>December 2019</small>
+                <div class="tech-stack"> <span class="heading-inverted">Tech -> </span>Python, Machine Learning ,Deep Learning, Nlp, TenserFlow, Keras</div>
+                <div class="discription-about-blog">
+                    <p class="details-of-blog">We Often See That when we type something in our mail or even in mobile keyboard ,they generate or recommend some words based on the sentence we have typed.Like Let Say if You have typed "I Love" then we get some words like "like ,love,etc " or even a combination of 2-3 words as recommendation.
+                        Have you ever wondered how that is possible. It all because of sequnetial learning . Our deep learning Model analise the previous typed words and based on the learning it has it recommend the further words.
+                        This Blog has a real-time hands-on details implemnation information of the sequential learning.
+                    </p>
+                </div>
+                <div class="Blog-link">
+                    <a href ="https://medium.com/@ashishnnnnn/google-smart-compose-real-time-text-assisting-a117987cd666" class="link link-primary">Blog-2 </a>
+                </div>
+            </div>
+        </li>
+    </ul>
+    <footer class="footer">
+        <div class="footer-header">
+            Online-Presence
+        </div>
+        <ul class="social-links list-non-bullet">
             <li class="list-item-inline">
-                <a class="link" href="/index.html">Home</a>
+                <a class="link" href="https://github.com/ashishnnnnn">
+                    GitHub
+                </a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="/projects.html">Projects</a>
+                <a class="link" href="https://www.linkedin.com/in/ashish-kumar-41a205163/">
+                    Linkedin
+                </a>
             </li>
             <li class="list-item-inline">
-                <a class="link link-active" href="/">Blog</a>
+                <a class="link" href="https://medium.com/@ashishnnnnn">
+                    Medium
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://twitter.com/home">
+                    Twitter
+                </a>
             </li>
         </ul>
-    </nav>
-    <header class="hero">
-        <h1 class="hero-heading">Ashish Kumar's <span class="heading-inverted">Blogs</span></h1>
-    </header>
-</body>
+    </footer>    
+  </body>
 </html>
